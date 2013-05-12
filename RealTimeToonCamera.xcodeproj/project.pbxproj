@@ -16,6 +16,29 @@
 		2F234727173DC2FC00F101B0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F234726173DC2FC00F101B0 /* Default.png */; };
 		2F234729173DC2FC00F101B0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F234728173DC2FC00F101B0 /* Default@2x.png */; };
 		2F23472B173DC2FC00F101B0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F23472A173DC2FC00F101B0 /* Default-568h@2x.png */; };
+		2FA3E911173F3C620029A599 /* RealTimeTooCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA3E910173F3C620029A599 /* RealTimeTooCameraViewController.m */; };
+		2FA3E921173F3C920029A599 /* CameraFlashButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA3E914173F3C920029A599 /* CameraFlashButton.m */; };
+		2FA3E922173F3C920029A599 /* CameraProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA3E916173F3C920029A599 /* CameraProcessor.m */; };
+		2FA3E923173F3C920029A599 /* GLCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA3E918173F3C920029A599 /* GLCameraViewController.m */; };
+		2FA3E924173F3C920029A599 /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA3E91A173F3C920029A599 /* OpenGLView.m */; };
+		2FA3E925173F3C920029A599 /* PhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA3E91C173F3C920029A599 /* PhotoPreviewViewController.m */; };
+		2FA3E926173F3C920029A599 /* VideoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA3E91E173F3C920029A599 /* VideoPreviewViewController.m */; };
+		2FA3E927173F3C920029A599 /* VideoRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA3E920173F3C920029A599 /* VideoRecorder.m */; };
+		2FA3E932173F3CA70029A599 /* Camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FA3E92A173F3CA70029A599 /* Camera@2x.png */; };
+		2FA3E933173F3CA70029A599 /* CameraLarge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FA3E92B173F3CA70029A599 /* CameraLarge@2x.png */; };
+		2FA3E934173F3CA70029A599 /* Focus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FA3E92C173F3CA70029A599 /* Focus@2x.png */; };
+		2FA3E935173F3CA70029A599 /* Handle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FA3E92D173F3CA70029A599 /* Handle@2x.png */; };
+		2FA3E936173F3CA70029A599 /* RecordOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FA3E92E173F3CA70029A599 /* RecordOff@2x.png */; };
+		2FA3E937173F3CA70029A599 /* RecordOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FA3E92F173F3CA70029A599 /* RecordOn@2x.png */; };
+		2FA3E938173F3CA70029A599 /* Toggle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FA3E930173F3CA70029A599 /* Toggle@2x.png */; };
+		2FA3E939173F3CA70029A599 /* Video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FA3E931173F3CA70029A599 /* Video@2x.png */; };
+		2FA3E93B173F3D1E0029A599 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA3E93A173F3D1E0029A599 /* OpenGLES.framework */; };
+		2FA3E93D173F3D240029A599 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA3E93C173F3D240029A599 /* QuartzCore.framework */; };
+		2FA3E93F173F3D2B0029A599 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA3E93E173F3D2B0029A599 /* AVFoundation.framework */; };
+		2FA3E941173F3D300029A599 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA3E940173F3D300029A599 /* CoreVideo.framework */; };
+		2FA3E943173F3D360029A599 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA3E942173F3D360029A599 /* CoreMedia.framework */; };
+		2FA3E945173F3D3E0029A599 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA3E944173F3D3E0029A599 /* AssetsLibrary.framework */; };
+		2FA3E947173F3D7E0029A599 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA3E946173F3D7E0029A599 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +55,37 @@
 		2F234726173DC2FC00F101B0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2F234728173DC2FC00F101B0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2F23472A173DC2FC00F101B0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2FA3E90F173F3C620029A599 /* RealTimeTooCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealTimeTooCameraViewController.h; sourceTree = "<group>"; };
+		2FA3E910173F3C620029A599 /* RealTimeTooCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealTimeTooCameraViewController.m; sourceTree = "<group>"; };
+		2FA3E913173F3C920029A599 /* CameraFlashButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraFlashButton.h; path = ../../GLCameraTemplate/GLCameraTemplate/CameraFlashButton.h; sourceTree = "<group>"; };
+		2FA3E914173F3C920029A599 /* CameraFlashButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraFlashButton.m; path = ../../GLCameraTemplate/GLCameraTemplate/CameraFlashButton.m; sourceTree = "<group>"; };
+		2FA3E915173F3C920029A599 /* CameraProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraProcessor.h; path = ../../GLCameraTemplate/GLCameraTemplate/CameraProcessor.h; sourceTree = "<group>"; };
+		2FA3E916173F3C920029A599 /* CameraProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraProcessor.m; path = ../../GLCameraTemplate/GLCameraTemplate/CameraProcessor.m; sourceTree = "<group>"; };
+		2FA3E917173F3C920029A599 /* GLCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLCameraViewController.h; path = ../../GLCameraTemplate/GLCameraTemplate/GLCameraViewController.h; sourceTree = "<group>"; };
+		2FA3E918173F3C920029A599 /* GLCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLCameraViewController.m; path = ../../GLCameraTemplate/GLCameraTemplate/GLCameraViewController.m; sourceTree = "<group>"; };
+		2FA3E919173F3C920029A599 /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLView.h; path = ../../GLCameraTemplate/GLCameraTemplate/OpenGLView.h; sourceTree = "<group>"; };
+		2FA3E91A173F3C920029A599 /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenGLView.m; path = ../../GLCameraTemplate/GLCameraTemplate/OpenGLView.m; sourceTree = "<group>"; };
+		2FA3E91B173F3C920029A599 /* PhotoPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoPreviewViewController.h; path = ../../GLCameraTemplate/GLCameraTemplate/PhotoPreviewViewController.h; sourceTree = "<group>"; };
+		2FA3E91C173F3C920029A599 /* PhotoPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoPreviewViewController.m; path = ../../GLCameraTemplate/GLCameraTemplate/PhotoPreviewViewController.m; sourceTree = "<group>"; };
+		2FA3E91D173F3C920029A599 /* VideoPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoPreviewViewController.h; path = ../../GLCameraTemplate/GLCameraTemplate/VideoPreviewViewController.h; sourceTree = "<group>"; };
+		2FA3E91E173F3C920029A599 /* VideoPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoPreviewViewController.m; path = ../../GLCameraTemplate/GLCameraTemplate/VideoPreviewViewController.m; sourceTree = "<group>"; };
+		2FA3E91F173F3C920029A599 /* VideoRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoRecorder.h; path = ../../GLCameraTemplate/GLCameraTemplate/VideoRecorder.h; sourceTree = "<group>"; };
+		2FA3E920173F3C920029A599 /* VideoRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoRecorder.m; path = ../../GLCameraTemplate/GLCameraTemplate/VideoRecorder.m; sourceTree = "<group>"; };
+		2FA3E92A173F3CA70029A599 /* Camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera@2x.png"; sourceTree = "<group>"; };
+		2FA3E92B173F3CA70029A599 /* CameraLarge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CameraLarge@2x.png"; sourceTree = "<group>"; };
+		2FA3E92C173F3CA70029A599 /* Focus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Focus@2x.png"; sourceTree = "<group>"; };
+		2FA3E92D173F3CA70029A599 /* Handle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Handle@2x.png"; sourceTree = "<group>"; };
+		2FA3E92E173F3CA70029A599 /* RecordOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordOff@2x.png"; sourceTree = "<group>"; };
+		2FA3E92F173F3CA70029A599 /* RecordOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordOn@2x.png"; sourceTree = "<group>"; };
+		2FA3E930173F3CA70029A599 /* Toggle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Toggle@2x.png"; sourceTree = "<group>"; };
+		2FA3E931173F3CA70029A599 /* Video@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Video@2x.png"; sourceTree = "<group>"; };
+		2FA3E93A173F3D1E0029A599 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2FA3E93C173F3D240029A599 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2FA3E93E173F3D2B0029A599 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2FA3E940173F3D300029A599 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		2FA3E942173F3D360029A599 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2FA3E944173F3D3E0029A599 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		2FA3E946173F3D7E0029A599 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +93,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA3E947173F3D7E0029A599 /* AudioToolbox.framework in Frameworks */,
+				2FA3E945173F3D3E0029A599 /* AssetsLibrary.framework in Frameworks */,
+				2FA3E943173F3D360029A599 /* CoreMedia.framework in Frameworks */,
+				2FA3E941173F3D300029A599 /* CoreVideo.framework in Frameworks */,
+				2FA3E93F173F3D2B0029A599 /* AVFoundation.framework in Frameworks */,
+				2FA3E93D173F3D240029A599 /* QuartzCore.framework in Frameworks */,
+				2FA3E93B173F3D1E0029A599 /* OpenGLES.framework in Frameworks */,
 				2F234715173DC2FC00F101B0 /* UIKit.framework in Frameworks */,
 				2F234717173DC2FC00F101B0 /* Foundation.framework in Frameworks */,
 				2F234719173DC2FC00F101B0 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +129,13 @@
 		2F234713173DC2FC00F101B0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2FA3E946173F3D7E0029A599 /* AudioToolbox.framework */,
+				2FA3E944173F3D3E0029A599 /* AssetsLibrary.framework */,
+				2FA3E942173F3D360029A599 /* CoreMedia.framework */,
+				2FA3E940173F3D300029A599 /* CoreVideo.framework */,
+				2FA3E93E173F3D2B0029A599 /* AVFoundation.framework */,
+				2FA3E93C173F3D240029A599 /* QuartzCore.framework */,
+				2FA3E93A173F3D1E0029A599 /* OpenGLES.framework */,
 				2F234714173DC2FC00F101B0 /* UIKit.framework */,
 				2F234716173DC2FC00F101B0 /* Foundation.framework */,
 				2F234718173DC2FC00F101B0 /* CoreGraphics.framework */,
@@ -78,8 +146,11 @@
 		2F23471A173DC2FC00F101B0 /* RealTimeToonCamera */ = {
 			isa = PBXGroup;
 			children = (
+				2FA3E912173F3C700029A599 /* GLCamera */,
 				2F234723173DC2FC00F101B0 /* AppDelegate.h */,
 				2F234724173DC2FC00F101B0 /* AppDelegate.m */,
+				2FA3E90F173F3C620029A599 /* RealTimeTooCameraViewController.h */,
+				2FA3E910173F3C620029A599 /* RealTimeTooCameraViewController.m */,
 				2F23471B173DC2FC00F101B0 /* Supporting Files */,
 			);
 			path = RealTimeToonCamera;
@@ -88,6 +159,7 @@
 		2F23471B173DC2FC00F101B0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2FA3E928173F3CA70029A599 /* Resources */,
 				2F23471C173DC2FC00F101B0 /* RealTimeToonCamera-Info.plist */,
 				2F23471D173DC2FC00F101B0 /* InfoPlist.strings */,
 				2F234720173DC2FC00F101B0 /* main.m */,
@@ -97,6 +169,51 @@
 				2F23472A173DC2FC00F101B0 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FA3E912173F3C700029A599 /* GLCamera */ = {
+			isa = PBXGroup;
+			children = (
+				2FA3E913173F3C920029A599 /* CameraFlashButton.h */,
+				2FA3E914173F3C920029A599 /* CameraFlashButton.m */,
+				2FA3E915173F3C920029A599 /* CameraProcessor.h */,
+				2FA3E916173F3C920029A599 /* CameraProcessor.m */,
+				2FA3E917173F3C920029A599 /* GLCameraViewController.h */,
+				2FA3E918173F3C920029A599 /* GLCameraViewController.m */,
+				2FA3E919173F3C920029A599 /* OpenGLView.h */,
+				2FA3E91A173F3C920029A599 /* OpenGLView.m */,
+				2FA3E91B173F3C920029A599 /* PhotoPreviewViewController.h */,
+				2FA3E91C173F3C920029A599 /* PhotoPreviewViewController.m */,
+				2FA3E91D173F3C920029A599 /* VideoPreviewViewController.h */,
+				2FA3E91E173F3C920029A599 /* VideoPreviewViewController.m */,
+				2FA3E91F173F3C920029A599 /* VideoRecorder.h */,
+				2FA3E920173F3C920029A599 /* VideoRecorder.m */,
+			);
+			name = GLCamera;
+			sourceTree = "<group>";
+		};
+		2FA3E928173F3CA70029A599 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2FA3E929173F3CA70029A599 /* images */,
+			);
+			name = Resources;
+			path = ../../GLCameraTemplate/GLCameraTemplate/Resources;
+			sourceTree = "<group>";
+		};
+		2FA3E929173F3CA70029A599 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2FA3E92A173F3CA70029A599 /* Camera@2x.png */,
+				2FA3E92B173F3CA70029A599 /* CameraLarge@2x.png */,
+				2FA3E92C173F3CA70029A599 /* Focus@2x.png */,
+				2FA3E92D173F3CA70029A599 /* Handle@2x.png */,
+				2FA3E92E173F3CA70029A599 /* RecordOff@2x.png */,
+				2FA3E92F173F3CA70029A599 /* RecordOn@2x.png */,
+				2FA3E930173F3CA70029A599 /* Toggle@2x.png */,
+				2FA3E931173F3CA70029A599 /* Video@2x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +271,14 @@
 				2F234727173DC2FC00F101B0 /* Default.png in Resources */,
 				2F234729173DC2FC00F101B0 /* Default@2x.png in Resources */,
 				2F23472B173DC2FC00F101B0 /* Default-568h@2x.png in Resources */,
+				2FA3E932173F3CA70029A599 /* Camera@2x.png in Resources */,
+				2FA3E933173F3CA70029A599 /* CameraLarge@2x.png in Resources */,
+				2FA3E934173F3CA70029A599 /* Focus@2x.png in Resources */,
+				2FA3E935173F3CA70029A599 /* Handle@2x.png in Resources */,
+				2FA3E936173F3CA70029A599 /* RecordOff@2x.png in Resources */,
+				2FA3E937173F3CA70029A599 /* RecordOn@2x.png in Resources */,
+				2FA3E938173F3CA70029A599 /* Toggle@2x.png in Resources */,
+				2FA3E939173F3CA70029A599 /* Video@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +291,14 @@
 			files = (
 				2F234721173DC2FC00F101B0 /* main.m in Sources */,
 				2F234725173DC2FC00F101B0 /* AppDelegate.m in Sources */,
+				2FA3E911173F3C620029A599 /* RealTimeTooCameraViewController.m in Sources */,
+				2FA3E921173F3C920029A599 /* CameraFlashButton.m in Sources */,
+				2FA3E922173F3C920029A599 /* CameraProcessor.m in Sources */,
+				2FA3E923173F3C920029A599 /* GLCameraViewController.m in Sources */,
+				2FA3E924173F3C920029A599 /* OpenGLView.m in Sources */,
+				2FA3E925173F3C920029A599 /* PhotoPreviewViewController.m in Sources */,
+				2FA3E926173F3C920029A599 /* VideoPreviewViewController.m in Sources */,
+				2FA3E927173F3C920029A599 /* VideoRecorder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +413,7 @@
 				2F234730173DC2FC00F101B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
