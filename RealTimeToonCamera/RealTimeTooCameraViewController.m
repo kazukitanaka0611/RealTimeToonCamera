@@ -8,6 +8,8 @@
 
 #import "RealTimeTooCameraViewController.h"
 
+#import "ToonFilterOpengGLView.h"
+
 @interface RealTimeTooCameraViewController ()
 
 @end
@@ -33,6 +35,12 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark -
+- (OpenGLView *)createOpenGLView
+{
+    return [[ToonFilterOpengGLView alloc] initWithFrame:self.view.bounds];
 }
 
 @end
