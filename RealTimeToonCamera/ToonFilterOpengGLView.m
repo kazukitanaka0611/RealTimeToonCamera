@@ -40,7 +40,10 @@
 
      void main()
      {
-         gl_Position = position;
+         highp vec4 pos = position;
+         pos.x *= mirror;
+         
+         gl_Position = pos;
 
          vec2 widthStep = vec2(texelWidth, 0.0);
          vec2 heightStep = vec2(0.0, texelHeight);

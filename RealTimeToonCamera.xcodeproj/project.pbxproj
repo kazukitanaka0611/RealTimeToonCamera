@@ -40,6 +40,8 @@
 		2FA3E943173F3D360029A599 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA3E942173F3D360029A599 /* CoreMedia.framework */; };
 		2FA3E945173F3D3E0029A599 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA3E944173F3D3E0029A599 /* AssetsLibrary.framework */; };
 		2FA3E947173F3D7E0029A599 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA3E946173F3D7E0029A599 /* AudioToolbox.framework */; };
+		2FCF130C1740EB860074BBB0 /* sample_landscape.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2FCF130A1740EB860074BBB0 /* sample_landscape.JPG */; };
+		2FCF130D1740EB860074BBB0 /* sample_portlate.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2FCF130B1740EB860074BBB0 /* sample_portlate.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +91,8 @@
 		2FA3E942173F3D360029A599 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		2FA3E944173F3D3E0029A599 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		2FA3E946173F3D7E0029A599 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2FCF130A1740EB860074BBB0 /* sample_landscape.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_landscape.JPG; sourceTree = "<group>"; };
+		2FCF130B1740EB860074BBB0 /* sample_portlate.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_portlate.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +168,7 @@
 		2F23471B173DC2FC00F101B0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2FCF13071740EA700074BBB0 /* Resources */,
 				2FA3E928173F3CA70029A599 /* Resources */,
 				2F23471C173DC2FC00F101B0 /* RealTimeToonCamera-Info.plist */,
 				2F23471D173DC2FC00F101B0 /* InfoPlist.strings */,
@@ -219,6 +224,31 @@
 				2FA3E931173F3CA70029A599 /* Video@2x.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		2FCF13071740EA700074BBB0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2FCF13081740EA700074BBB0 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2FCF13081740EA700074BBB0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2FCF13091740EA700074BBB0 /* sample */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		2FCF13091740EA700074BBB0 /* sample */ = {
+			isa = PBXGroup;
+			children = (
+				2FCF130A1740EB860074BBB0 /* sample_landscape.JPG */,
+				2FCF130B1740EB860074BBB0 /* sample_portlate.JPG */,
+			);
+			path = sample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +314,8 @@
 				2FA3E937173F3CA70029A599 /* RecordOn@2x.png in Resources */,
 				2FA3E938173F3CA70029A599 /* Toggle@2x.png in Resources */,
 				2FA3E939173F3CA70029A599 /* Video@2x.png in Resources */,
+				2FCF130C1740EB860074BBB0 /* sample_landscape.JPG in Resources */,
+				2FCF130D1740EB860074BBB0 /* sample_portlate.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +379,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -371,7 +403,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
