@@ -23,4 +23,4 @@ Sample
 ==================  
 <img alt="sample1" width="225px" style="width: 225px;" src="RealTimeToonCamera/Resources/Images/sample/sample_portlate.png">
 <br>
-<img alt="sample2" width="225px" style="width: 225px;" src="RealTimeToonCamera/Resources/Images/sample/sample_landscape.png">  
+<img alt="sample2" width="320px" style="width: 320px;" src="RealTimeToonCamera/Resources/Images/sample/sample_landscape.png">  
