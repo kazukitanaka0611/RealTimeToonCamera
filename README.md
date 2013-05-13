@@ -21,6 +21,6 @@ The same license as GPUImage
 
 Sample
 ==================  
- [image]: https://github.com/kazukitanaka0611/RealTimeToonCamera/blob/master/RealTimeToonCamera/Resources/Images/sample/sample_portlate.JPG
+![Alt text] https://github.com/kazukitanaka0611/RealTimeToonCamera/blob/master/RealTimeToonCamera/Resources/Images/sample/sample_portlate.JPG
 
  [image]: https://github.com/kazukitanaka0611/RealTimeToonCamera/blob/master/RealTimeToonCamera/Resources/Images/sample/sample_landscape.JPG  
